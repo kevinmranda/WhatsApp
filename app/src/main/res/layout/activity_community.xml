@@ -12,35 +12,47 @@
         android:id="@+id/top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="697dp"
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="190dp"
+            android:layout_marginStart="160dp"
             android:text="Kevin"
             android:textSize="15sp" />
-        <TextView
+        <ImageView
+            android:id="@+id/drop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="95sp"
-            android:text="viatu"
-            android:textSize="15sp"/>
-        <TextView
+            android:src="@drawable/menu_down"
+            />
+        <ImageView
+            android:id="@+id/shoe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110sp"
+            android:src="@drawable/shoe_print"
+            />
+        <ImageView
+            android:id="@+id/menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15sp"
-            android:text="bar"
-            android:textSize="15sp"/>
+            android:src="@drawable/menu"
+            />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/profile"
         android:layout_width="match_parent"
         android:layout_height="142dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
+        android:gravity="center"
         android:layout_marginTop="58dp"
         android:layout_marginBottom="531dp"
         android:orientation="vertical">
@@ -49,16 +61,15 @@
             android:id="@+id/profile_image"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginStart="167dp"
             android:src="@drawable/kevin"
             app:civ_border_color="@color/teal_700"
             app:civ_border_overlay="true"
             app:civ_border_width="2dp" />
 
         <TextView
+            android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="162.4dp"
             android:padding="10dp"
             android:text="Kevin Mranda"
             android:textSize="15sp" />
