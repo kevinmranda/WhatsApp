@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/status"
+         android:icon="@drawable/circle_double"
+         android:title="Status" />
+    <item android:id="@+id/calls"
+        android:icon="@drawable/phone_outline"
+        android:title="Calls" />
+    <item android:id="@+id/communities"
+        android:icon="@drawable/account_group_outline"
+        android:title="Communities" />
+    <item android:id="@+id/chats"
+        android:icon="@drawable/forum_outline"
+        android:title="Chats" />
+    <item android:id="@+id/settings"
+        android:icon="@drawable/cog_outline"
+        android:title="Settings" />
+</menu>
