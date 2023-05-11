@@ -2,17 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
      <item android:id="@+id/status"
          android:icon="@drawable/circle_double"
-         android:title="Status" />
+         android:title="Status"
+         android:enabled="true"/>
     <item android:id="@+id/calls"
         android:icon="@drawable/phone_outline"
-        android:title="Calls" />
+        android:title="Calls"
+        android:enabled="true"/>
     <item android:id="@+id/communities"
         android:icon="@drawable/account_group_outline"
-        android:title="Communities" />
+        android:title="Communities"
+        android:enabled="true"/>
     <item android:id="@+id/chats"
         android:icon="@drawable/forum_outline"
-        android:title="Chats" />
+        android:title="Chats"
+        android:enabled="true"/>
     <item android:id="@+id/settings"
         android:icon="@drawable/cog_outline"
-        android:title="Settings" />
+        android:title="Settings"
+        android:enabled="true"/>
 </menu>
